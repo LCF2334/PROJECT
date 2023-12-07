@@ -1,0 +1,109 @@
+body,
+header,
+nav,
+main,
+footer,
+img,
+h1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  background-color: #db81898e;
+  background-image: url(./image/TEAMCOVER.gif);
+}
+
+#navigation {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  font-size: 13px;
+}
+#logo {
+  margin-left: 1px;
+}
+.hello {
+  height: 5vw;
+  width: 5vw;
+  margin-top: 2px;
+  border-radius: 10px;
+}
+
+nav {
+  background-color: #db818963;
+  margin-left: 8vws;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  text-align: left;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 1.5em;
+  font-family: Geneva, Arial, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+nav li a {
+  display: block;
+  color: #10100f;
+  text-align: center;
+  padding: 0.3em 1.1em;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+section {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+article,
+aside {
+  flex: 1;
+}
+
+article h2,
+aside h2 {
+  color: #333;
+  font-family: "Dhurjati", sans-serif;
+}
+
+section h3 {
+  color: rgb(28, 44, 29);
+  margin-top: 20px;
+}
+
+figure {
+  margin: 20px 0;
+  text-align: center;
+}
+
+figcaption {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+}
+P {
+  font-family: "Hedvig Letters Serif", serif;
+}

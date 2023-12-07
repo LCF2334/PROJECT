@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONOCLES</title>
+    <link rel="shortcut icon" href="./image/favicon.jpg" type="image/x-icon">
+   <link rel="stylesheet" href="./contact.css">
+   <link rel="stylesheet" href="./media.css/navigation.css">
+</head>
+<body>
+    <header>
+        <div id="coverpage">
+            <img src="./image/contactcover.gif" alt="cover page" width="100%" height="400em">
+          </div> 
+    </header>
+ 
+  <!----Use the nav area to add hyperlinks to other pages within the website-->
+  <div id="navigation">
+    <div id="logo">
+      <a href="./index.html">
+        <img class="hello" src="./image/logo.png" alt="MONOCLES logo"></a>
+    </div>
+
+    <nav>
+      <div class="mobile-hamburger mobile-only" onclick="menu()">&#9776;</div>
+      <ul class="nav-list remove-nav" id="navbar">
+        
+        <div class="close-icon mobile-only" onclick="menu()">&#10060</div>
+        <li><a href="./index.html">Home </a> </li>
+        <li><a href="./about.html">About Us</a></li>
+        <li><a href="./team.html">Our Team</a> </li>
+        <li><a href="./specials.html">Specials</a> </li>
+        <li><a href="./training.html"> Training</a></li>
+        <li><a href="./media.html">Media </a></li>
+        <li><a href="./faqs.html">FAQs</a></li>
+        <li><a href="./contact.html">Contact Us </a></li>
+      </ul>
+    </nav>
+  </div>
+      
+
+<body>
+   
+<section>
+        <form action="#" method="post" class="center-form">
+            <fieldset>
+                <legend>Contact Information</legend>
+
+                <ol>
+                    <li>
+                        <label for="name">1. Your Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required autofocus>
+                    </li>
+
+                    <li>
+                        <label for="email">2. Your Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </li>
+
+                    <li>
+                        <label for="subject">3. Subject Matter:</label>
+                        <select id="subject" name="subject" required>
+                            <option value="" disabled selected>Select a subject</option>
+                            <option value="general">General queries</option>
+                            <option value="support">Customer Support</option>
+                            <option value="feedback">Voice of customer</option>
+                        </select>
+                    </li>
+
+                    <li>
+                        <label for="message">4. Your Message:</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Type your message here" required></textarea>
+                    </li>
+
+                    <li>
+                        <label>Need live chat agent?</label>
+                        <input type="radio" id="contact-email" name="contact-method" value="email" checked>
+                        <label for="contact-email">Yes</label>
+                        <input type="radio" id="contact-phone" name="contact-method" value="phone">
+                        <label for="contact-phone">No,Thanks</label>
+                    </li>
+
+                    <li>
+                        <label>6. Subscribe to Newsletter:</label>
+                        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                        <label for="subscribe">Yes, subscribe me to the newsletter</label>
+                    </li>
+                </ol>
+
+                <div class="form-buttons">
+                    <button type="submit">Submit Request</button>
+                    <button type="reset">Reset Form</button>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; copyright 2099. All Rights Reserved <br>
+          <a href="mailto:info@monocles.com"> Request information </a><br>
+        ANJANA UNNIKRISHNAN &nbsp;&nbsp; C0920017
+      
+        </p>
+      </footer>
+      <script src="./scripts/script.js"></script>
+
+
+</body>
+
+</html>

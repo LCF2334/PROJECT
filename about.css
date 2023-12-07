@@ -1,0 +1,115 @@
+body,
+header,
+nav,
+main,
+footer,
+img,
+h1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  background-color: #db81898e;
+}
+
+#navigation {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  font-size: 13px;
+}
+#logo {
+  margin-left: 1px;
+}
+.hello {
+  height: 5vw;
+  width: 5vw;
+  margin-top: 2px;
+  border-radius: 10px;
+}
+
+nav {
+  background-color: #db818963;
+  margin-left: 8vws;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  text-align: left;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 1.5em;
+  font-family: Geneva, Arial, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+nav li a {
+  display: block;
+  color: #10100f;
+  text-align: center;
+  padding: 0.3em 1.1em;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  font-size: 24px;
+}
+
+.about-content,
+.our-story,
+.reasons,
+.guarantee {
+  margin: 20px;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.85em;
+  background-color: #db8189d1;
+  color: #252422;
+  padding-top: 1% 1%;
+  padding-left: 0% 0%;
+  clear: left;
+  margin-top: 229px;
+}
+footer a {
+  color: #160d03;
+  text-decoration: none;
+}
+
+.mobile-view{
+    display: none;
+}
+
+.tablet-desktop {
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    .tablet-desktop {
+        display: none;
+
+    }
+    .mobile-view {
+        display: block;
+    }
+}
